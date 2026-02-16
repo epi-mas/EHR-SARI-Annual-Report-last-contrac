@@ -1,0 +1,40 @@
+
+
+# ---------------------- Config
+
+# Set package requirements, file paths etc
+source("config.R")  
+
+# ---------------------- define countreis and period
+
+country_codes <-  c("DK", "AU", "BE", "DE", "EE", "IS", "LU", "MT") # for BE rates are not available. For LU rates are only avialable for totals.
+
+#define cutoffs
+week_from <- "2023-W40"
+week_to <- "2024_W52"
+
+# ---------------------- Import
+
+source("scripts/import.R")
+
+
+# Period ------------------------------------------------------------------
+
+#define study period from week_from to week_to 
+source("scripts/period.R") 
+
+# Plots -------------------------------------------------------------------
+
+source("scripts/visualise/plot_sari_hosp_pos.R") # overall SARI admissions and test positivity
+
+source("scripts/visualise/plot_sari_hosp_pos_LU.R") # overall SARI admissions and test positivity for LU where only SARS-CoV_2 positivity is available. 
+
+source("scripts/visualise/plot_age_sari_pos.R") # SARI admissions and test positivity by age
+
+source("scripts/visualise/plot_age_sari_pos_DK.R") # data from DK is different for age groups
+
+source("scripts/visualise/plot_age_sari_hosp_LU.R") # data from LU is provided as SARI counts for age groups, not as incidence rates
+
+# Rate summary -------------------------------------------------------------------
+
+source("scripts/rate_summary.R") 

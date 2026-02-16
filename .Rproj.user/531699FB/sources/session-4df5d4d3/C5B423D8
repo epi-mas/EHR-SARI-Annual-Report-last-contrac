@@ -1,0 +1,27 @@
+{
+    "id": "C5B423D8",
+    "path": "C:/Users/m.sanchez/Documents/Development for annual report/EHR Annual report - 2026/scripts/rate_summary.R",
+    "project_path": "scripts/rate_summary.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1744214792981.0,
+    "source_on_save": false,
+    "relative_order": 5,
+    "properties": {
+        "tempName": "Untitled1",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "135,0",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1742317959,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1742317959,
+    "read_only": false,
+    "read_only_alternatives": []
+}
